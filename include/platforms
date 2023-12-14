@@ -8,7 +8,7 @@ __INCLUDE_PLATFORMS__=defined
 Source include/variable
 Source include/check
 
-AllPlatformOptionNames="bromolow avoton alpine braswell apollolake grantley alpine4k monaco broadwell broadwellntbap kvmx64 kvmcloud armada38x denverton rtd1296 broadwellnk armada37xx purley geminilake v1000 epyc7002 r1000 broadwellnkv2 rtd1619b"
+AllPlatformOptionNames="bromolow avoton alpine braswell apollolake grantley alpine4k monaco broadwell broadwellntbap kvmx64 kvmcloud armada38x denverton rtd1296 broadwellnk armada37xx purley geminilake v1000 epyc7002 r1000 broadwellnkv2 rtd1619b ipq806x"
 
 AllPlatforms="	bromolow	BROMOLOW			linux-3.10.x    	Intel Bromolow
 		avoton		AVOTON				linux-3.10.x		Intel Avoton
@@ -34,6 +34,7 @@ AllPlatforms="	bromolow	BROMOLOW			linux-3.10.x    	Intel Bromolow
 		r1000		R1000				linux-4.4.x		AMD Ryzen Embedded R1000
 		broadwellnkv2	BROADWELLNKV2			linux-4.4.x		Intel Broadwell with port mapping v2
 		rtd1619b	REALTEK_RTD1619B		linux-5.10.x		Realtek rtd1619b
+		ipq806x		QUALCOMM_IPQ806X		linux-4.4.x			Qualcomm ipq806x
 		"
 
 #
