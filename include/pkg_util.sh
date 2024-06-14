@@ -52,6 +52,7 @@ pkg_get_platform() {
 			R1000)			arch="r1000" ;;
 			BROADWELLNKV2)		arch="broadwellnkv2" ;;
 			REALTEK_RTD1619B)	arch="rtd1619b" ;;
+			QUALCOMM_IPQ806X)	arch="ipq806x" ;;
 			*)			arch="" ;;
 		esac
 	fi
@@ -78,7 +79,7 @@ plat_to_family() {
 			family="armv8"
 			;;
 		# armv7 not ready platforms.
-		comcerto2k | armada370 | armada375 | armadaxp | monaco | armada38x | rtd1296 )
+		comcerto2k | armada370 | armada375 | armadaxp | monaco | armada38x | rtd1296 | ipq806x )
 			family="$plat"
 			;;
 		*)
